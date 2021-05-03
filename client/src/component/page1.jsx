@@ -148,7 +148,7 @@ const Page1 = () => {
                             <TableFooter>
                                 <TableRow>
                                     <TablePagination
-                                        rowsPerPageOptions={[5, 10]}
+                                        rowsPerPageOptions={[5]}
                                         colSpan={3}
                                         count={rows.length}
                                         rowsPerPage={rowsPerPage}
